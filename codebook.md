@@ -1,13 +1,13 @@
 Codebook
 ========================================================
 
-== RAW Source Data == 
+## RAW Source Data 
 
 
 Original Source Data Details available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 
-== Processed data == 
+## Processed data
 
 The tidied data has the following variables 
 
