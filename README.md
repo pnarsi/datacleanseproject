@@ -5,7 +5,7 @@ datacleanseproject
 ### Description  
 
 This README file describes the run-analysis.R which contains code to convert
-the original raw dataset  into a tidy independant dataset that provides the mean
+the original **Human Activity Recognition** dataset  into a tidy independant dataset that provides the mean
 of each variable being measured for each activity and for each subject.
 
 The original dataset is available from: 
@@ -16,16 +16,20 @@ and is described at:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-### Analysis File Requirements
+### How it Works
 
 The ANALYSIS FILE assumes that the source files for the data have been extracted
-into the working directory and that the README.TXT file of the source data is available at
+into the working directory of the script and that the README.TXT file of the source data is available at
 `./UCI HAR Dataset/README.txt`
 
 Furthermore the following R packages need to be installed:
 
-* `dplyr`
-* `tidyr`
+  * `dplyr`
+  * `tidyr`
+
+The script can be run using the following command
+
+`Rscript run_analysis.R`
 
 
 ### Opening the Output File
