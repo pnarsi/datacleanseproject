@@ -64,7 +64,7 @@ it to the dataset.
 additional column.
 
 6. Minor cleanup is done with the variable names to make it more readable. 
-Specifically all `'()'` are removed from the name and all `'-'` are converted to `'_'`
+Specifically all 'brackets' -`'()'` are removed from the name and all 'dashes' `'-'` are converted to 'underscores' `'_'`
 
 7. The next step is to convert the short, wide dataset to a long, narrow one. As
 per Hadley Wickhan data paper[1] *tidy data* is one where each variable forms a 
