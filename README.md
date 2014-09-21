@@ -67,7 +67,7 @@ additional column.
 Specifically all 'brackets' -`'()'` are removed from the name and all 'dashes' `'-'` are converted to 'underscores' `'_'`
 
 7. The next step is to convert the short, wide dataset to a long, narrow one. As
-per Hadley Wickhan data paper[1] *tidy data* is one where each variable forms a 
+per Hadley Wickhan's paper[1], *tidy data* is one where each variable forms a 
 column and each observation forms a row. One can argue that the various 
 'variables' in the original dataset are in reality part of a set of features that
 can be measured. Therefore each of these feature variables should each be in 
@@ -83,6 +83,6 @@ The mean of each group is then calculated.
 
 ### References
 
-[1] Hadley Wickham Tiday, "Tidy Data", Journal of Statistical Software, http://vita.had.co.nz/papers/tidy-data.pdf
-[2] David Hood, Forum Post on Long Data, Wide Data, and Tidy Data for the Assignment https://class.coursera.org/getdata-007/forum/thread?thread_id=214
+ * [1] Hadley Wickham Tiday, "Tidy Data", Journal of Statistical Software, http://vita.had.co.nz/papers/tidy-data.pdf
+ * [2] David Hood, Forum Post on Long Data, Wide Data, and Tidy Data for the Assignment https://class.coursera.org/getdata-007/forum/thread?thread_id=214
 
